@@ -1,0 +1,26 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Model checkpoints and generated output
+*.pth
+*.pt
+*.ckpt
+runs/
+wandb/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
